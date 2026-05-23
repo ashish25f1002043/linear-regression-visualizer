@@ -60,28 +60,26 @@ Linear Regression Visualizer
 linear-regression-visualizer/
 │
 ├── src/
-│ │
-│ ├── components/
-│ │ ├── Graph.jsx
-│ │ ├── LossGraph.jsx
-│ │ ├── InputPanel.jsx
-│ │ ├── CSVUploader.jsx
-│ │ ├── DataPreview.jsx
-│ │ ├── MathSteps.jsx
-│ │ ├── PredictionChart.jsx
-│ │
-│ ├── utils/
-│ │ ├── gradientDescent.js
-│ │ ├── metrics.js
-│ │ ├── regression.js
-│ │
-│ ├── App.js
-│ ├── index.js
+│   ├── components/
+│   │   ├── Graph.jsx
+│   │   ├── LossGraph.jsx
+│   │   ├── InputPanel.jsx
+│   │   ├── CSVUploader.jsx
+│   │   ├── DataPreview.jsx
+│   │   ├── MathSteps.jsx
+│   │   ├── PredictionChart.jsx
+│   │
+│   ├── utils/
+│   │   ├── gradientDescent.js
+│   │   ├── metrics.js
+│   │   ├── regression.js
+│   │
+│   ├── App.js
+│   ├── index.js
 │
 ├── public/
 ├── package.json
 └── README.md
-
 
 
 ---

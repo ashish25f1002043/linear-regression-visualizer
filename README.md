@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# 📊 Linear Regression Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive React-based web application that demonstrates **Linear Regression using Gradient Descent** with real-time visualization, training steps, and performance metrics.
 
-## Available Scripts
+---
+It visually explains:
 
-In the project directory, you can run:
+How a model learns from data
+How loss decreases over time
+How the best-fit line is formed
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📈 Real-time Linear Regression visualization
+- 🧠 Step-by-step Gradient Descent training
+- 📉 Loss curve visualization
+- 📊 Model evaluation (R² Score & RMSE)
+- 📁 CSV file upload support
+- 🔄 Multiple training runs tracking
+- 📍 Data point input manually
+- 🎯 Prediction visualization
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- React.js
+- JavaScript (ES6+)
+- Charting Library (for graphs)
+- HTML & CSS
+- Gradient Descent Algorithm (from scratch)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+📸 Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 📷 Project Overview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project visually explains how a linear regression model learns:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Data points are plotted on a graph
+2. Gradient Descent optimizes the best-fit line
+3. Loss reduces over iterations
+4. Model predicts values based on trained parameters
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📊 Metrics Used
 
-## Learn More
+- **R² Score** → Measures model accuracy
+- **RMSE (Root Mean Squared Error)** → Measures prediction error
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+Linear Regression Visualizer
+linear-regression-visualizer/
+│
+├── src/
+│ │
+│ ├── components/
+│ │ ├── Graph.jsx
+│ │ ├── LossGraph.jsx
+│ │ ├── InputPanel.jsx
+│ │ ├── CSVUploader.jsx
+│ │ ├── DataPreview.jsx
+│ │ ├── MathSteps.jsx
+│ │ ├── PredictionChart.jsx
+│ │
+│ ├── utils/
+│ │ ├── gradientDescent.js
+│ │ ├── metrics.js
+│ │ ├── regression.js
+│ │
+│ ├── App.js
+│ ├── index.js
+│
+├── public/
+├── package.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ⚙️ How to Run Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# Clone the repository
+git clone https://github.com/your-username/linear-regression-visualizer.git
 
-### Advanced Configuration
+# Go into project folder
+cd linear-regression-visualizer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Install dependencies
+npm install
 
-### Deployment
+# Start development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Future Improvements
+Add Multiple Regression support
+Add Logistic Regression
+Add model comparison feature
+Deploy live dashboard (Vercel/Netlify)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author
+
+Built with ❤️ to visually understand Machine Learning fundamentals using React
+
+Note
+
+This project is for educational purposes to understand how Linear Regression + Gradient Descent works internally

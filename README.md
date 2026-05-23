@@ -9,6 +9,11 @@ How a model learns from data
 How loss decreases over time
 How the best-fit line is formed
 
+# 📊 Linear Regression Visualizer
+
+🔗 Live Demo  
+https://linear-regression-visualizer-5zr4uiduq-ashish-team.vercel.app
+
 ## 🚀 Features
 
 - 📈 Real-time Linear Regression visualization
